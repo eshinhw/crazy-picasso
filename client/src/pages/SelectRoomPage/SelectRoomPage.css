@@ -1,0 +1,23 @@
+.room-select {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 30%;
+  justify-content: center;
+  margin: 0% auto 0% auto;
+}
+
+#join-public {
+  background-color: rgb(232, 71, 71);
+  color: white;
+}
+
+#create-private {
+  background-color: rgb(84, 71, 232);
+  color: white;
+}
+
+#join-private {
+  background-color: rgb(19, 82, 31);
+  color: white;
+}

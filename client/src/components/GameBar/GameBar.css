@@ -1,0 +1,34 @@
+.game-bar {
+    display: flex;
+    align-items: baseline;
+}
+
+.game-bar::after {
+    flex: 1;
+    content: '';
+}
+
+.round-data {
+    text-align: left;
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.round-num {
+    margin-right: 8px;
+}
+
+.word-selection {
+    display: flex;
+    align-items: baseline;
+}
+
+.word-choices {
+    margin-left: 48px
+}
+
+.word-choices button {
+    margin-right: 20px
+}

@@ -1,0 +1,14 @@
+#waiting-spinner {
+  display: flex;
+  flex-direction: column;
+}
+
+.waiting-message {
+  font-family: "Indie Flower";
+  font-size: 50px;
+  margin-top: 60px;
+}
+
+.spinner {
+  margin-top: 150px;
+}

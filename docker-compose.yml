@@ -1,0 +1,43 @@
+version: "3.7"
+
+services:  
+  nginx:
+    depends_on:
+      - api
+      - client
+    restart: always
+    build:
+      dockerfile: Dockerfile.dev
+      context: ./nginx
+    ports:
+      - '80:80'
+
+  api:
+    container_name: crazy-picasso_backend
+    build:
+      dockerfile: "Dockerfile"
+      context: './server'
+    volumes:
+      - /app/node_modules
+      - ./server:/app
+    external_links:
+      - mongo
+
+  client:
+    build:
+      dockerfile: "Dockerfile"
+      context: './client'
+    volumes:
+      - /app/node_modules
+      - ./client:/app
+
+  mongo:
+    container_name: mongo
+    image: mongo
+    volumes:
+      - mongodb-data:/data/db
+    ports:
+      - '27017:27017'
+
+volumes:
+   mongodb-data:

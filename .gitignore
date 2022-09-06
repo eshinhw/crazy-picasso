@@ -1,0 +1,6 @@
+.DS_Store
+.env*
+
+client/Dockerfile.dev
+docker-compose.dev.yml
+server/Dockerfile.dev

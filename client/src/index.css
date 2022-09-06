@@ -1,0 +1,67 @@
+html {
+  cursor: url("./images/cursor.png"), default;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Indie Flower";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("../public/background.jpeg");
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+button {
+  font-family: "Indie Flower";
+  font-size: 20px;
+  border-radius: 20px;
+  cursor: url("./images/pointer.png"), pointer;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 25%;
+  justify-content: center;
+  margin: 0% auto 10% auto;
+}
+
+input {
+  padding: 2% 0;
+  border-style: ridge;
+  border-radius: 20px;
+  text-indent: 20px;
+  font-family: "Indie Flower", serif;
+  font-size: 20px;
+  cursor: url("./images/text-cursor.png"), text;
+}
+
+input::placeholder {
+  font-family: "Indie Flower", serif;
+  font-size: 20px;
+}
+
+.auth-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.d-inline-block {
+  display: inline-block;
+}

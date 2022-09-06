@@ -1,0 +1,15 @@
+.error-alert {
+    font-family: "Indie Flower";
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: rgb(232, 71, 71);
+    color: white;
+    padding-top: 2px;
+    padding-right: 6px;
+    padding-bottom: 3px;
+    padding-left: 6px;
+    border: 2px outset #9A9A9A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

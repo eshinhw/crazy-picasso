@@ -1,0 +1,8 @@
+#chat-window {
+  height: 35rem;
+}
+
+#chat-window-guesses {
+  height: 100%;
+  overflow: auto;
+}

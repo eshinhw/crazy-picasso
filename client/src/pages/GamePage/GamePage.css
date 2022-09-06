@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  max-width: 100%;
+}
+
+.section {  
+  border: 1px solid grey;
+}
+
+#players {
+  height: 150px;
+}
+
+#drawing {
+  display: flex;
+  flex-direction: column;
+  width: 1500px;
+  height: 600px;
+}
+
+#canvas {
+  /* width: 1200px; */
+  height: 500px;
+}
+
+#palette {
+  /* width: 1200px; */
+  height: 100px;
+}
+
+#chatting {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 600px;
+}
+
+#chatting-window {
+  /* width: 500px; */
+  height: 400px;
+}
+
+#chat-type {
+  width: 500px;
+  height: 200px;
+}
+
