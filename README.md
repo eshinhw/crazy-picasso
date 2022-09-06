@@ -1,5 +1,7 @@
 # Crazy Picasso
 
+This repository is created by copying the code base from the private repository in [UTSCC09/crazy-picasso](https://github.com/UTSCC09/crazy-picasso).
+
 ## Team members
 
 1. Aaron Jacob Tan
