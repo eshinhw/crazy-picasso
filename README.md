@@ -1,6 +1,6 @@
 # Crazy Picasso
 
-This repository is created by copying the code base from the private repository in [UTSCC09/crazy-picasso](https://github.com/UTSCC09/crazy-picasso). Crazy Picasso is our own final project of CSCC09 - Programming on the Web. This was NOT a guided project and we were responsible for designing the concept of the web app, choosing technologies and deploying the app in the end.
+This repository is created by copying the code base from the private repository in [UTSCC09/crazy-picasso](https://github.com/UTSCC09/crazy-picasso). Crazy Picasso is our own final project of CSCC09 - Programming on the Web, and it was NOT a guided project. We were responsible for designing the concept of the web app, choosing technologies and deploying the app in the end.
 
 ## Team members
 
