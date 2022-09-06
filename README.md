@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Crazy Picasso
 
 ## Team members
@@ -46,6 +45,3 @@ Sendgrid API was used to set up an automatic emailing service to the new players
 - Nginx is our reverse proxy.
 - Docker images: Nginx, Express Backend Image, React Frontend Image, MongoDB Image
 - Our Docker images are deployed into an Amazon Lightsail container service to be able to run on AWS infrastructure.
-=======
-# crazy-picasso
->>>>>>> 223d096cf67662a305212d4790bec0f08bdcf2d8
