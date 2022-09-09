@@ -1,7 +1,7 @@
 # Crazy Picasso
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/41933169/189412338-2349c344-380c-4571-b987-ddaa1d09437e.png" width="500">
+<img src="https://user-images.githubusercontent.com/41933169/189412338-2349c344-380c-4571-b987-ddaa1d09437e.png" width="800">
 </p>
 
 
